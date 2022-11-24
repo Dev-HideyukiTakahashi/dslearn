@@ -19,5 +19,9 @@ INSERT INTO tb_course(name, img_uri, img_gray_uri) VALUES ('Bootcamp HTML', 'htt
 INSERT INTO tb_offer(edition, start_moment, end_moment, course_id) VALUES ('1.0', '2020-11-20T03:00:07Z', '2021-11-20T03:00:07Z', 1);
 INSERT INTO tb_offer(edition, start_moment, end_moment, course_id) VALUES ('2.0', '2020-12-20T03:00:07Z', '2021-12-20T03:00:07Z', 1);
 
+INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES ('Trilha HTML', 'Trilha principal do curso', 1, 'https://img.com', 'LESSON_TASK', 1);
+INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES ('Forum', 'Tire suas dúvidas', 2, 'https://img.com', 'FORUM', 1);
+INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES ('Lives', 'Lives exclusivas para a turma', 3, 'https://img.com', 'LESSON_ONLY', 1);
+
 
 
